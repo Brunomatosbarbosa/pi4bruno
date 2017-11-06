@@ -1,0 +1,132 @@
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\WebApplication1.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.Core.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Owin.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.Core.xml
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.xml
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.xml
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+c:\users\ucl\documents\visual studio 2015\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Microsoft.Owin.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Owin.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Microsoft.Owin.xml
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.xml
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Bruno\Documents\Projeto\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Microsoft.Owin.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Owin.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Microsoft.Owin.xml
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.xml
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\UCL\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\roslyn\csc.exe
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\roslyn\vbc.exe
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Microsoft.Owin.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Newtonsoft.Json.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Owin.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Microsoft.Owin.xml
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Microsoft.Owin.Security.xml
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\bin\Newtonsoft.Json.xml
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Bruno\Desktop\asadda\Nova pasta\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

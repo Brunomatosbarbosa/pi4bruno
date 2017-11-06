@@ -1,0 +1,456 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>HardLife</title>
+    <style type="text/css">
+        .container {
+		    
+            background-color: rgb(128,128,128);
+            border: thick solid black;
+            width: 960px;
+            padding: 20px;
+			
+			
+        }
+       
+        .a {
+		    
+            width: 1000px;
+            height: 500px;
+            //background-image:url(tabuleiro1.png);
+            background-color: rgb(128,128,128);
+			border: thick solid black;
+			
+        }
+		
+		.botao {
+            background-color: #D1DDDE;
+            
+            padding: 3px 21px;
+            
+            cursor: pointer;
+        }
+		.chat{
+		background-color: #D1DDDE;
+		cursor: pointer;
+		}
+		
+	    rect {
+            stroke-width: 5;
+            stroke: black;
+        }
+        .CustBlue{fill:#16ADB8;}
+
+        .CustGrey{fill:#D1DDDE;}
+
+        .draggable {
+            stroke-width: 2;
+            stroke: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <span id="gameInformation"></span>
+    <div id="register">
+        <strong>Seu Nick:</strong>
+        <input type="text" class="input" id="gameName" />
+        <br />
+        <input type="button" class="button" id="registerName"
+               value="Registrar" />
+    </div>
+    <div id="findOpponent">
+        <strong>Click no botão para procurar oponente</strong>
+        <input type="button" class="button findGame" id="findGame" value="
+
+Procurar oponente" />
+    </div>
+    <div id="WaitingForOpponent">Esperando Oponente!</div>
+
+    <div  id="game">
+	
+	<svg class="a">
+
+
+<rect class="CustBlue"  id="1" x="3.5%" y="6%" rx="20" ry="20" width="7%" height="22%" />
+
+<rect class="CustGrey"  id="2" x="10.5%" y="10%" width="7%" height="14%" />
+
+<rect class="CustBlue"  id="3" x="17.5%" y="10%" width="7%" height="14%" />
+
+<rect class="CustGrey"  id="4" x="24.5%" y="10%" width="7%" height="14%" />
+
+<rect class="CustBlue"  id="5" x="31.5%" y="10%" width="7%" height="14%" />
+
+<rect class="CustGrey"  id="6" x="31.5%" y="24%" width="7%" height="14%" />
+
+<rect class="CustBlue"  id="7" x="31.5%" y="38%" width="7%" height="14%" />
+
+<rect class="CustGrey"  id="8"  x="31.5%"  y="52%"   width="7%" height="14%"  />
+ 
+<rect class="CustBlue"  id="9"  x="24.5%" y="52%"    width="7%" height="14%" />
+
+<rect class="CustGrey"  id="10"  x="17.5%" y="52%"   width="7%" height="14%" />
+
+<rect class="CustBlue"  id="11"  x="17.5%" y="38%"  width="7%" height="14%" />
+ 
+<rect class="CustGrey"  id="12"  x="10.5%" y="38%"  width="7%" height="14%" />
+ 
+<rect class="CustBlue"  id="13"  x="3.5%" y="38%" width="7%" height="14%" />
+
+<rect class="CustGrey"  id="14"  x="3.5%"  y="52%"   width="7%" height="14%"  />
+
+<rect class="CustBlue"  id="15"  x="3.5%" y="66%"    width="7%" height="14%" />
+
+<rect class="CustGrey"  id="16"  x="3.5%" y="80%"    width="7%" height="14%" />
+
+<rect class="CustBlue"  id="17"  x="10.5%" y="80%"   width="7%" height="14%" />
+
+<rect class="CustGrey"  id="18"  x="17.5%" y="80%"   width="7%" height="14%" />
+  
+<rect class="CustBlue"  id="19"  x="24.5%" y="80%"   width="7%" height="14%" />
+ 
+<rect class="CustGrey"  id="20"  x="31.5%" y="80%"  width="7%" height="14%" />
+
+<rect class="CustBlue"  id="21"  x="38.5%" y="80%"   width="7%" height="14%"  />
+
+<rect class="CustGrey"  id="22"  x="45.5%" y="80%"    width="7%" height="14%" />
+
+<rect class="CustBlue"  id="23"  x="45.5%" y="66%"   width="7%" height="14%" />
+
+<rect class="CustGrey"  id="24"  x="45.5%" y="52%"   width="7%" height="14%" />
+  
+<rect class="CustBlue"  id="25"  x="45.5%" y="38%"   width="7%" height="14%" />
+ 
+<rect class="CustGrey"  id="26"  x="45.5%" y="24%"  width="7%" height="14%" />
+
+<rect class="CustBlue"  id="27"  x="45.5%" y="10%"   width="7%" height="14%"  />
+
+<rect class="CustGrey"  id="28"  x="52.5%" y="10%"    width="7%" height="14%" />
+
+<rect class="CustBlue"  id="29"  x="59.5%" y="10%"   width="7%" height="14%" />
+
+<rect class="CustGrey"  id="30"  x="66.5%" y="10%"   width="7%" height="14%" />
+  
+<rect class="CustBlue"  id="31"  x="73.5%" y="10%"   width="7%" height="14%" />
+ 
+<rect class="CustGrey"  id="32"  x="73.5%" y="24%"   width="7%" height="14%" />
+  
+<rect class="CustBlue"  id="33"  x="73.5%" y="38%"   width="7%" height="14%" />
+ 
+<rect class="CustGrey"  id="34"  x="73.5%" y="52%"  width="7%" height="14%" />
+
+<rect class="CustBlue"  id="35"  x="73.5%" y="66%"   width="7%" height="14%"  />
+
+<rect class="CustGrey"  id="36"  x="73.5%" y="80%"    width="7%" height="14%" />
+
+<rect class="CustBlue"  id="37"  x="80.5%" y="80%"    width="7%" height="14%" />
+
+<rect class="CustGrey"  id="38"  x="87.5%" y="80%"   width="7%" height="14%" />
+
+<rect class="CustBlue"  id="39"  x="87.5%" y="66%"   width="7%" height="14%" />
+  
+<rect class="CustGrey"  id="40"  x="87.5%" y="52%"   width="7%" height="14%" />
+ 
+<rect class="CustBlue"  id="41"  x="87.5%" y="38%"  width="7%" height="14%" />
+
+<rect class="CustGrey"  id="42"  x="87.5%" y="24%"   width="7%" height="14%"  />
+
+<rect class="CustBlue"  id="43"  x="85.5%" y="10%" rx="20" ry="20"   width="11%" height="14%" />
+
+
+
+<rect class="CustGrey"  width="13%" height="28%" x="56.5%" y="66%" />
+
+<rect class="CustGrey"  width="13%" height="21.8%" x="56.5%" y="66%" />
+			  
+<rect class="CustGrey" id="dado" width="13%" height="22%" x="56.5%" y="30%" />
+
+<image id="dado1" width="13%" height="17%" x="56.5%" y="68%" xlink:href="http://websmed.portoalegre.rs.gov.br/escolas/obino/cruzadas1/domino_consoantes/dado.gif" />
+
+<foreignObject   x="56.7%" y="88.4%">
+    <input type="button" class="botao" id="jogardado"  value="Jogar o Dado" />
+</foreignObject>
+
+        <foreignObject x="56.7%" y="95.4%">
+            <input type="button" class="botao" id="sair"  value="Sair do Jogo"  />
+        </foreignObject>
+
+<text x="61%" y="44%"
+        font-family="Verdana" 
+        font-size="50" id="numerodado">
+    
+  </text>
+
+      
+
+
+
+
+    </svg>
+	<div class="container" id="chat">
+        <input type="text"  id="message" placeholder="Escreva sua mensagem" />
+        <input type="button" class="chat" id="sendmessage" value="Enviar" />
+        <ul id="discussion"></ul>
+    </div>
+    
+    </div>
+
+
+    
+    <!--Script references. -->
+    <!--Reference the jQuery library. -->
+    <script src="Scripts/jquery-1.6.4.min.js"></script>
+    <!--Reference the SignalR library. -->
+    <script src="Scripts/jquery.signalR-2.2.2.min.js"></script>
+    <!--Reference the autogenerated SignalR hub script. -->
+    <script src="signalr/hubs"></script>
+    <!--Add script to update the page and send messages.-->
+    <script type="text/javascript">
+
+
+
+        $(function () {
+            var connection = $.hubConnection();
+            var hub = connection.createHubProxy("Game");
+
+            var x1;
+            var y1;
+            var el;
+            
+
+            var svg = document.querySelector('svg');
+
+            //create circle
+            var shape = document.createElementNS(
+                "http://www.w3.org/2000/svg", "circle");
+
+
+
+
+            shape.setAttributeNS(null, "cx", 80);
+            shape.setAttributeNS(null, "cy", 65);
+            shape.setAttributeNS(null, "r", 12);
+            shape.setAttributeNS(null, "fill", "green");
+            shape.setAttributeNS(null, "class", "draggable");
+            shape.id = 'circle1';
+
+           
+
+            var shape2 = document.createElementNS(
+                "http://www.w3.org/2000/svg", "circle");
+
+
+
+
+            shape2.setAttributeNS(null, "cx", 80);
+            shape2.setAttributeNS(null, "cy", 110);
+            shape2.setAttributeNS(null, "r", 12);
+            shape2.setAttributeNS(null, "fill", "red");
+            shape2.setAttributeNS(null, "class", "draggable");
+            shape2.id = 'circle2';
+
+            svg.appendChild(shape);
+            svg.appendChild(shape2);
+
+            var ddData = {
+                element: null,
+                initialX: 0,
+                initialY: 0,
+                originalX: 0,
+                originalY: 0
+            };
+            //start move
+            shape.onmousedown = function (evt) {
+                var evt = evt || window.event;
+                
+                ddData.element = evt.target || evt.srcElement;
+                ddData.initialX = evt.clientX;
+                ddData.initialY = evt.clientY;
+                ddData.originalX = parseFloat(
+                    ddData.element.getAttributeNS(null, "cx"));
+                ddData.originalY = parseFloat(
+                    ddData.element.getAttributeNS(null, "cy"));
+            };
+
+            shape2.onmousedown = function (evt) {
+                var evt = evt || window.event;
+
+                ddData.element = evt.target || evt.srcElement;
+                ddData.initialX = evt.clientX;
+                ddData.initialY = evt.clientY;
+                ddData.originalX = parseFloat(
+                    ddData.element.getAttributeNS(null, "cx"));
+                ddData.originalY = parseFloat(
+                    ddData.element.getAttributeNS(null, "cy"));
+            };
+           
+            
+            
+
+            $("#findOpponent").hide();
+            $("#WaitingForOpponent").hide();
+            $("#chat").hide();
+            $("#game").hide();
+
+            hub.on("dado",function(val){
+                $("#numerodado").text(val);
+            });
+
+
+           hub.on("registerComplete", function (){
+
+                $("#register").hide();
+                $("#findOpponent").show();
+
+            });
+
+
+            hub.on("noOpponent", function () {
+                $("#gameInformation").html("Procurando um jogador!")
+            });
+
+            hub.on("foundOpponent", function (message) {
+                $("#WaitingForOpponent").hide();
+                $("#gameInformation").html("Você esta jogando contra " +
+
+                    message);
+                $("#chat").show();
+                $("#game").show();
+
+
+                
+
+            });
+
+            hub.on("move", function (x1, y1) {
+
+                
+                shape.setAttributeNS(null, "cx", x1);
+                shape.setAttributeNS(null, "cy", y1);
+
+
+            });
+
+            hub.on("move2", function (x1, y1) {
+
+
+                shape2.setAttributeNS(null, "cx", x1);
+                shape2.setAttributeNS(null, "cy", y1);
+
+
+            });
+
+            hub.on("recaregar", function () {
+                setTimeout(location.reload(true), 2500);
+            });
+            
+           
+            connection.start().done(function () {
+
+                $("#sair").click(function () {
+                    var okToRefresh = confirm("Você tem certeza que quer sair do jogo");
+                    if (okToRefresh) {
+                        hub.invoke("rpagina");
+                        
+                    }
+                });
+
+                $("#jogardado").click(function(){
+                    hub.invoke("LancarDados");
+
+                });
+
+                 $("#findGame").click(function () {
+                    hub.invoke("findOpponent");
+
+                    $("#register").hide();
+                    $("#findOpponent").hide();
+                    $("#WaitingForOpponent").show();
+                });
+                    $("#registerName").click(function () {
+                    hub.invoke("registerClient", $("#gameName").val());
+                 });
+
+                    svg.onmousemove = function (evt) {
+                        var evt = evt || window.event;
+                        el = ddData.element;
+
+                        if (el == shape) {
+
+                            var posX = ddData.originalX + evt.clientX - ddData.initialX;
+                            var posY = ddData.originalY + evt.clientY - ddData.initialY;
+
+                            //move object
+                            el.setAttributeNS(null, "cx", posX);
+                            el.setAttributeNS(null, "cy", posY);
+
+
+                            x1 = posX;
+                            y1 = posY;
+
+                            hub.invoke("moverAll", x1, y1);
+
+
+                        } else {
+                            var posX = ddData.originalX + evt.clientX - ddData.initialX;
+                            var posY = ddData.originalY + evt.clientY - ddData.initialY;
+
+                            //move object
+                            el.setAttributeNS(null, "cx", posX);
+                            el.setAttributeNS(null, "cy", posY);
+
+
+                            x1 = posX;
+                            y1 = posY;
+
+                            hub.invoke("moverAll2", x1, y1);
+                        }
+
+                    }   
+
+               
+                    
+                    //stops drag movement
+                    svg.onmouseup = function (evt) {
+                        var evt = evt || window.event;
+                        ddData.element = null;
+                    }
+
+
+                    
+
+
+            });
+
+
+            // Declare a proxy to reference the hub.
+            var chat = $.connection.chatHub;
+            // Create a function that the hub can call to broadcast messages.
+            chat.client.broadcastMessage = function (name, message) {
+                // Html encode display name and message.
+                var encodedName = $('<div />').text(name).html();
+                var encodedMsg = $('<div />').text(message).html();
+                // Add the message to the page.
+                $('#discussion').append('<li><strong>' + encodedName
+                    + '</strong>:&nbsp;&nbsp;' + encodedMsg + '</li>');
+            };
+            // Get the user name and store it to prepend to messages.
+            
+            // Set initial focus to message input box.
+            $('#message').focus();
+            // Start the connection.
+            $.connection.hub.start().done(function () {
+                $('#sendmessage').click(function () {
+                    // Call the Send method on the hub.
+                    chat.server.send($('#gameName').val(), $('#message').val
+
+                        ());
+                    // Clear text box and reset focus for next comment.
+                    $('#message').val('').focus();
+                });
+            });
+        });
+    </script>
+</body>
+</html>
